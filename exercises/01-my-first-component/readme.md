@@ -40,7 +40,8 @@ Although our future code snippets are going to be in ES2015, you can use both in
 class Anchor extends React.Component {
   render() {
     return (React.createElement('a', {
-      href: 'http://yld.io/'
+      href: 'http://yld.io/',
+      children: ''
     }));
   }
 };
